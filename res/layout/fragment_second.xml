@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFF99" >
+    
+    <Button 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/wiki"
+    	android:id="@+id/fbDetails"    
+    />
+    
+    <Button 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/back"
+    	android:id="@+id/fbBack"    
+    />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginBottom="5dip"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/second"
+        android:id="@+id/ftextviewtwo" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:textSize="20sp"
+        android:id="@+id/fcityv"
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginBottom="2dip"
+        android:textColor="#00d5f2"
+        android:textSize="20sp"
+        android:id="@+id/felevationv"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginBottom="2dip"
+        android:textColor="#00d5f2"
+        android:textSize="20sp"
+        android:id="@+id/flatv"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:textSize="20sp"
+        android:id="@+id/flonv"/>
+    
+    <Button 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/about"
+    	android:id="@+id/fbAbout"    
+    />
+    
+    
+</LinearLayout>

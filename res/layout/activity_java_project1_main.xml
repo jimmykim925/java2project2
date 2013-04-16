@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginBottom="20dip"
+        android:textSize="20dp"
+        android:text="@string/first" />
+    
+    <EditText 
+        android:id="@+id/searchbox"  
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:gravity="top"   
+        android:inputType="textFilter"
+        android:scrollHorizontally="false"
+        android:layout_marginBottom="30dip"
+    />
+    
+    <Button 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/submit"
+    	android:id="@+id/bSubmit"    
+    />
+
+</LinearLayout>
